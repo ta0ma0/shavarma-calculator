@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html
+    style="background:url({{'static/background.png'}});"> 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>🌯 Shawarma</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div class="header"></div>
+    <div class="text-header">
+        <p>Shawarma currency calculator</p>
+    <div><img class="pucture-shawarma" src="{{url_for('static', filename='thenounproject.png')}}" /></div>
+</div>
+    <div class="form">
+        <form action="{{ url_for('submit_data_rur') }}" method="POST">
+            <label for="name">Enter your RUR:</label>
+            <input type="number" id="name" name="RUR"><br><br>
+            <input class='submit_btn' type="submit" value="Submit">
+        </form>
+        <form class='amd-from' action="{{ url_for('submit_data_amd') }}" method="POST">
+            <label for="name">Enter your AMD:</label>
+            <input type="number" id="name" name="AMD"><br><br>
+            <input class='submit_btn' type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="infobox">
+        <p>Актуальный курс валют получен с сайта <a href="https://mironline.ru/support/list/kursy_mir/">платежной система "МИР"</a></p>
+      </div>
+  </body>
+</html>

@@ -115,6 +115,7 @@ background: rgba(217, 217, 217, 0.33);
 .list {
     margin-top: 20px;
     margin-left: 20px;
+    padding-top: 8px;
 }
 
 .infobox {

@@ -5,7 +5,7 @@ html {
 
 body{
 position: relative;
-width: 390px;
+width: 375px;
 height: 100%;
 min-height: 667px;
 max-height: 844px;
@@ -22,7 +22,7 @@ background: #efe8c0;
 {
 
 position: absolute;
-width: 390px;
+width: 375px;
 height: 180px;
 left: 0px;
 top: 0px;
@@ -66,7 +66,7 @@ color: #000000;
 position: absolute;
 width: 190px;
 height: 24px;
-left: 100px;
+left: 90px;
 top: 200px;
 
 font-family: 'Ubuntu Mono';
@@ -98,7 +98,7 @@ color: #000000;
 position: relative;
 width: 340px;
 height: 190px;
-margin-left: -70px;
+margin-left: -73px;
 margin-top: 30px;
 background: rgba(217, 217, 217, 0.33);
 }
@@ -117,6 +117,7 @@ background: rgba(217, 217, 217, 0.33);
     margin-top: 20px;
     margin-left: 20px;
     padding-top: 8px;
+    height: 180px;
 }
 
 .infobox {

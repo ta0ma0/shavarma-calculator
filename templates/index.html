@@ -22,13 +22,17 @@
             <label for="name">Enter your AMD:</label>
             <input type="number" id="name" name="AMD"><br><br>
             <input class='submit_btn' type="submit" value="Submit">
+            <div class="result">
+                <div class="list">
+                    {% for string in answer %}
+                    <li>{{ string }}</li></br>
+                    {% endfor %}
+                  </div>
+                <div class="infobox">
+                    <p>Актуальный курс валют получен с сайта <a href="https://mironline.ru/support/list/kursy_mir/">платежной системы "МИР"</a></p>
+                  </div>
+            </div>
         </form>
-        <div class="result">
-    
-            <div class="infobox">
-                <p>Актуальный курс валют получен с сайта <a href="https://mironline.ru/support/list/kursy_mir/">платежной системы "МИР"</a></p>
-              </div>
-        </div>
     </div>
   </body>
 </html>

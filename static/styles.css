@@ -67,7 +67,7 @@ position: absolute;
 width: 190px;
 height: 24px;
 left: 100px;
-top: 245px;
+top: 200px;
 
 font-family: 'Ubuntu Mono';
 font-style: normal;
@@ -87,19 +87,18 @@ color: #000000;
 
 
 .amd-from {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
 
 /* Result block */
 .result {
-position: absolute;
+position: relative;
 width: 340px;
 height: 190px;
-left: 25px;
-top: 500px;
-
+margin-left: -85px;
+margin-top: 20px;
 background: rgba(217, 217, 217, 0.33);
 }
 
@@ -119,7 +118,7 @@ background: rgba(217, 217, 217, 0.33);
 }
 
 .infobox {
-    margin-top: 800px;
+    margin-top: 45px;
     font-family: 'Ubuntu Mono';
     font-size: 12px;
     background-color:rgba(217, 217, 217, 0.33);
